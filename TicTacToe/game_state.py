@@ -3,7 +3,6 @@ from draw_board import draw_board
 board = draw_board()
 class game_state:
     def if_game_over(self):
-        #print('cos')
         return self.any_of_three_elements_in_win_position(board.list_of_cross_points) or self.any_of_three_elements_in_win_position(board.list_of_circle_points)
 
 
@@ -29,7 +28,5 @@ class game_state:
                 for k in range(len(list_of)):
                     if(not (i==j and j==k) ):
                         if (self.if_three_points_in_win_position(list_of[i],list_of[j],list_of[k])):
-                            #print('cos')
                             return 1
-        #print("2222222222")
         return 0

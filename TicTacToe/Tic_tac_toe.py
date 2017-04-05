@@ -1,6 +1,5 @@
 
 from draw_board import draw_board
-#from user_interface import user_interface
 from human_player import human_player
 from computer_player import computer_player
 from game_state import game_state
@@ -22,8 +21,7 @@ class Tic_tac_toe:
         self.__board.draw_board(self.size)
         self.game_service()
 
-    def end_game(self):
-        print("dzieki za gre, mordo!")
+
     def game_service(self):
         while (True):
             self.__human.do_turn(self.size)
@@ -38,3 +36,6 @@ class Tic_tac_toe:
                 print("zwyciezyl komputer")
                 self.end_game()
                 break
+
+    def end_game(self):
+        print("dzieki za gre, mordo!")
