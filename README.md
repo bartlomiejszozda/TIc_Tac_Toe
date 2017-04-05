@@ -4,4 +4,4 @@
 #game_state, sprawdzajacego stan gry ( czy ktos zwyciezyl)
 #draw_board, rysujacego tablice do gry
 +
-+[![Build Status](https://travis-ci.org/Florob/RustyXML.svg?branch=master)](https://travis-ci.org/Florob/RustyXML)
++[![Build Status](https://travis-ci.org/bartlomiejszozda/Lab_3.svg?branch=master)](https://travis-ci.org/bartlomiejszozda/Lab_3)
