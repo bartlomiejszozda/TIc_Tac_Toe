@@ -5,7 +5,6 @@ class Validator():
      #   self.__size=size
 
     def a_possibe_input_or_in_array_size(self , value, N):
-        print(N)
         if (0 <= value and value < N):
             return True
         else:

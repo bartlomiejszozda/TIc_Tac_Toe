@@ -19,10 +19,13 @@ class human_player:
     def value_in_size(self,x,y , N):
         if not Validator.a_possibe_input_or_in_array_size(self, x, N):
             print("wybrales zbyt duze liczby(x,y musza byc mniejsze od rozmiaru)")
-            raise Not_A_Possible_Input_Or_Not_In_Array_Size(x)
+            #raise Not_A_Possible_Input_Or_Not_In_Array_Size(x)
+            return False
         if not Validator.a_possibe_input_or_in_array_size(self, y, N):
-            raise Not_A_Possible_Input_Or_Not_In_Array_Size(y)
-
+            print("wybrales zbyt duze liczby(x,y musza byc mniejsze od rozmiaru)")
+            #raise Not_A_Possible_Input_Or_Not_In_Array_Size(y)
+            return False
         elif (not Validator.place_is_free(self, x, y, board.list_of_circle_points, board.list_of_cross_points)):
-            raise Place_Is_Cover((x, y))
+            #raise Place_Is_Cover((x, y))
+            return False
         return True
