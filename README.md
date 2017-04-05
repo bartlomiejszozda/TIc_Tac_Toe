@@ -3,3 +3,5 @@
 #human_player oraz computer_player, odpowiadajacych za gre czlowieka i komputera
 #game_state, sprawdzajacego stan gry ( czy ktos zwyciezyl)
 #draw_board, rysujacego tablice do gry
++
++[![Build Status](https://travis-ci.org/Florob/RustyXML.svg?branch=master)](https://travis-ci.org/Florob/RustyXML)
