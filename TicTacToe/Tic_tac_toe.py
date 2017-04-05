@@ -7,6 +7,9 @@ from game_state import game_state
 class Tic_tac_toe:
 
     size=3
+    def get_size(self):
+        return self.size
+
     def __init__(self):
         #self.__interface=user_interface()
         self.__board=draw_board()
@@ -38,4 +41,4 @@ class Tic_tac_toe:
                 break
 
     def end_game(self):
-        print("dzieki za gre, mordo!")
+        print("dzieki za gre, czlowiek!")
