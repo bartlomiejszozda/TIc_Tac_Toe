@@ -1,11 +1,11 @@
-plik glowny main.py tworzy obiekt Tic_tac_toe.py i rozpoczyna gre
+main.py create object Tic_tac_toe.py and start game
 
-Tic_tac_toe obsluguje cala gre korzystajac z plikow:
+Tic_tac_toe service whole game using:
 
-human_player oraz computer_player, odpowiadajacych za gre czlowieka i komputera
+human_player and computer_player - responsive for human and computer play
 
-game_state, sprawdzajacego stan gry ( czy ktos zwyciezyl)
+game_state - check game state (End game if human or computer win)
 
-draw_board, rysujacego tablice do gry
+draw_board - draw the game board
 
 [![Build Status](https://travis-ci.org/bartlomiejszozda/Lab_3.svg?branch=master)](https://travis-ci.org/bartlomiejszozda/Lab_3)
